@@ -104,9 +104,11 @@ a:visited {
 .hero .hero-content li {
   display: inline;
   padding-right: 20px;
+  text-shadow: 1px 1px 1px #fff;
 }
 .hero .hero-content li.active {
   color: #5dbb63;
+  text-shadow: 1px 1px 1px #5dbb63;
 }
 .hero .hero-content h1 {
   font-family: "Pacifico", cursive;
