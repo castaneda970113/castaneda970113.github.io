@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    width: 100%;
+  }
+  .hero {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+  }
+  .hero .hero-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: scale-down;
+    background-image: url('../public/image/hero.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+  }
+  .hero .hero-img::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.50);
+  }
+  .hero .hero-content {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px 40px;
+    height: 70vh;
+    display: flex;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    flex-direction: column;
+  }
+  .hero .hero-text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+  }
+  .hero .hero-content nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  .hero .hero-content .logo {
+    font-family: "Pacifico", cursive;
+    color: #5dbb63;
+    font-size: 1.8rem;    
+    text-shadow: 1px 1px 1px;
+  }
+  .hero .hero-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .hero .hero-content li {
+    display: inline;
+    padding-right: 20px;
+  }
+  .hero .hero-content li.active {
+    color: #5dbb63;
+  }
+  .hero .hero-content h1 {
+    font-family: "Pacifico", cursive;
+    color: #5dbb63;
+    text-shadow: 1px 1px 1px #5dbb63;
+    font-size: 64px;
+  }
+  .hero .hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .hero .hero-content a {
+    color: #fff;
+    font-size: 20px;
+    background-color: #5dbb63;
+    border: 5px solid #5dbb63;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+  }
+  
