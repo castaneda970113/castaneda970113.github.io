@@ -29,7 +29,7 @@
 .products .products-content {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 40px 40px;
+  padding: 60px 50px;
   display: flex;
   color: #4d4d4d;
   z-index: 1;
@@ -49,7 +49,7 @@
 .products .products-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
+  margin-top: 4rem;
   flex-wrap: wrap;
   gap: 20px;
 }

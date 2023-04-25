@@ -1,0 +1,68 @@
+.why-us {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.why-us .why-us-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: scale-down;
+  background-image: url("../public/image/campo.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.why-us .why-us-img::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #ed7017ed;
+}
+
+.why-us-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  display: flex;
+  color: #fff;
+  z-index: 1;
+  position: relative;
+  flex-direction: column;
+}
+
+.why-us .why-us-content h2 {
+  color: #fff;
+  font-size: 56px;
+}
+
+.why-us .why-us-content .title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.why-us .why-us-content .why-us-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  padding: 2rem 0;
+}
+
+.why-us .why-us-content .why-us-item {
+  padding: 1rem 3rem;
+  text-align: center;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.why-us .why-us-content .why-us-item h3 {
+  margin: 0.5rem 0;
+}
